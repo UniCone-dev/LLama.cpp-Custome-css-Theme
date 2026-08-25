@@ -1,0 +1,157 @@
+/* ==========================================================================
+   Cyber Emerald Theme for Llama.cpp
+   ========================================================================== */
+
+:root {
+  --bg-gradient-1: #022c22;
+  --bg-gradient-2: #064e3b;
+  --bg-gradient-3: #020617;
+  --glass-bg: rgba(6, 78, 59, 0.45);
+  --glass-border: rgba(52, 211, 153, 0.25);
+  --glass-glow: rgba(16, 185, 129, 0.35);
+
+  --accent-primary: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  --accent-hover: linear-gradient(135deg, #34d399 0%, #22d3ee 100%);
+  --text-main: #f0fdf4;
+  --text-muted: #94a3b8;
+  --user-msg-bg: rgba(6, 182, 212, 0.2);
+  --bot-msg-bg: rgba(255, 255, 255, 0.04);
+}
+
+body {
+  background: linear-gradient(-45deg, var(--bg-gradient-1), var(--bg-gradient-2), var(--bg-gradient-3), #01130e);
+  background-size: 400% 400%;
+  animation: emeraldFlow 16s ease infinite;
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+@keyframes emeraldFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container, .chat-container, .panel, textarea, select, input {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+}
+
+textarea:focus, input:focus, .panel:hover {
+  border-color: rgba(52, 211, 153, 0.6) !important;
+  box-shadow: 0 0 22px var(--glass-glow) !important;
+  outline: none !important;
+}
+
+.message.user, .user-message {
+  background: var(--user-msg-bg) !important;
+  border: 1px solid rgba(34, 211, 238, 0.3) !important;
+  border-radius: 14px !important;
+}
+
+.message.bot, .assistant-message {
+  background: var(--bot-msg-bg) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 14px !important;
+}
+
+button, .btn {
+  background: var(--accent-primary) !important;
+  color: #022c22 !important;
+  font-weight: 700 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  transition: all 0.25s ease !important;
+}
+
+button:hover, .btn:hover {
+  background: var(--accent-hover) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 211, 153, 0.4) !important;
+}/* ==========================================================================
+   Cyber Emerald Theme for Llama.cpp
+   ========================================================================== */
+
+:root {
+  --bg-gradient-1: #022c22;
+  --bg-gradient-2: #064e3b;
+  --bg-gradient-3: #020617;
+  --glass-bg: rgba(6, 78, 59, 0.45);
+  --glass-border: rgba(52, 211, 153, 0.25);
+  --glass-glow: rgba(16, 185, 129, 0.35);
+
+  --accent-primary: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  --accent-hover: linear-gradient(135deg, #34d399 0%, #22d3ee 100%);
+  --text-main: #f0fdf4;
+  --text-muted: #94a3b8;
+  --user-msg-bg: rgba(6, 182, 212, 0.2);
+  --bot-msg-bg: rgba(255, 255, 255, 0.04);
+}
+
+body {
+  background: linear-gradient(-45deg, var(--bg-gradient-1), var(--bg-gradient-2), var(--bg-gradient-3), #01130e);
+  background-size: 400% 400%;
+  animation: emeraldFlow 16s ease infinite;
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+@keyframes emeraldFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container, .chat-container, .panel, textarea, select, input {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+}
+
+textarea:focus, input:focus, .panel:hover {
+  border-color: rgba(52, 211, 153, 0.6) !important;
+  box-shadow: 0 0 22px var(--glass-glow) !important;
+  outline: none !important;
+}
+
+.message.user, .user-message {
+  background: var(--user-msg-bg) !important;
+  border: 1px solid rgba(34, 211, 238, 0.3) !important;
+  border-radius: 14px !important;
+}
+
+.message.bot, .assistant-message {
+  background: var(--bot-msg-bg) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 14px !important;
+}
+
+button, .btn {
+  background: var(--accent-primary) !important;
+  color: #022c22 !important;
+  font-weight: 700 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  transition: all 0.25s ease !important;
+}
+
+button:hover, .btn:hover {
+  background: var(--accent-hover) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 211, 153, 0.4) !important;
+}
