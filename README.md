@@ -9,6 +9,8 @@ Choose your favorite theme, copy the CSS code, and apply it directly through the
 
 Tip: You can also use the screenshots below as a visual reference before choosing a theme.
 
+(Scroll down 🡓) For more themes
+
 # Purely Premium New looks _ Austra Unicorn (Recommended)
 
 <img width="1416" height="845" alt="Screenshot_20260826_112349" src="https://github.com/user-attachments/assets/d5433ecf-20d4-4e44-bc12-816d348d55da" />
