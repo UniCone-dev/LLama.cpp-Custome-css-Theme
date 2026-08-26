@@ -226,7 +226,7 @@ pre, code {
   border-radius: 12px !important;
   color: #0284c7 !important;
 }
-
+```
 
 
 
@@ -519,6 +519,7 @@ button:empty:hover {
     0 8px 18px rgba(0, 0, 0, 0.12),
     var(--glass-shine-top) !important;
 }
+```
 
 # Premium — Kline OS
 <img width="1251" height="801" alt="Kline OS" src="https://github.com/user-attachments/assets/86a746b7-b152-4bf7-93cc-c81f260619fc" />
@@ -669,6 +670,7 @@ button:active,
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(168, 85, 247, 0.5);
 }
+```
 
 # Modern Arch
 <img width="1250" height="808" alt="Modern Arch" src="https://github.com/user-attachments/assets/39928131-4d30-4cc2-bcf1-d3cf04799d19" />
@@ -850,6 +852,7 @@ button.icon-btn:hover,
 .add-btn:hover {
   background: rgba(0, 0, 0, 0.1) !important;
 }
+```
 
 # Sinoatic Arc
 <img width="1256" height="807" alt="Sinoatic Arc" src="https://github.com/user-attachments/assets/dc7e87b8-9a98-492c-bab0-f6404c8b2ee1" />
@@ -961,6 +964,8 @@ button:hover,
   box-shadow: 0 6px 20px rgba(52, 211, 153, 0.4) !important;
 }
 
+
+```
 # Luiev
 <img width="1257" height="806" alt="Luiev" src="https://github.com/user-attachments/assets/b009e756-8e20-4350-a26b-df766c3895d7" />
 CSS Code
@@ -1156,8 +1161,9 @@ button:active,
   background: rgba(255, 255, 255, 0.35);
 }
 
+```
 
-#Credite 
+# Credite 
 
 Themes Included
 Organic OS — Ultra-premium 3D glass and animated bloom design.
