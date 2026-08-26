@@ -19,7 +19,7 @@ Apply/save the changes and enjoy your new theme.
 
 Tip: You can also use the screenshots below as a visual reference before choosing a theme.
 
-# Purely Premium New looks _ Austra Unicorn (Recommended)
+# Purely Premium New looks _ Austra Unicorn <span style="color: #22c55e;">Recommended</span>
 
 <img width="1416" height="845" alt="Screenshot_20260826_112349" src="https://github.com/user-attachments/assets/d5433ecf-20d4-4e44-bc12-816d348d55da" />
 
