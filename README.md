@@ -7,16 +7,6 @@ I created several custom themes for Llama.cpp. They are lightweight CSS files th
 
 Choose your favorite theme, copy the CSS code, and apply it directly through the Llama.cpp Developer settings.
 
-Installation
-Download or choose your favorite CSS theme from this repository.
-Open Llama.cpp.
-Go to Settings.
-Open the Developer options.
-Scroll down to the CSS File section.
-Copy the CSS code from your favorite theme below.
-Paste the code into the CSS editor.
-Apply/save the changes and enjoy your new theme.
-
 Tip: You can also use the screenshots below as a visual reference before choosing a theme.
 
 # Purely Premium New looks _ Austra Unicorn (Recommended)
