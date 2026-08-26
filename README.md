@@ -19,7 +19,7 @@ Apply/save the changes and enjoy your new theme.
 
 Tip: You can also use the screenshots below as a visual reference before choosing a theme.
 
-# Purely Premium New looks _ Austra Unicorn <span style="color: #22c55se;">Recommended</span>
+# Purely Premium New looks _ Austra Unicorn (Recommended)
 
 <img width="1416" height="845" alt="Screenshot_20260826_112349" src="https://github.com/user-attachments/assets/d5433ecf-20d4-4e44-bc12-816d348d55da" />
 
@@ -236,7 +236,7 @@ pre, code {
 
 
 
-# Premium — Organic OS
+# Premium — Organic OS (Recommended)
 <img width="1253" height="802" alt="Organic OS" src="https://github.com/user-attachments/assets/6c449a45-5a0b-4931-bc11-64bcaeac0daf" />
 CSS Code
 
@@ -521,7 +521,7 @@ button:empty:hover {
 }
 ```
 
-# Premium — Kline OS
+# Premium — Kline OS (Recommended)
 <img width="1251" height="801" alt="Kline OS" src="https://github.com/user-attachments/assets/86a746b7-b152-4bf7-93cc-c81f260619fc" />
 CSS Code
 
@@ -672,7 +672,7 @@ button:active,
 }
 ```
 
-# Modern Arch
+# Modern Arch (Recommended)
 <img width="1250" height="808" alt="Modern Arch" src="https://github.com/user-attachments/assets/39928131-4d30-4cc2-bcf1-d3cf04799d19" />
 CSS Code
 
