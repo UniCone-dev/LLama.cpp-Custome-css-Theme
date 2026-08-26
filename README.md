@@ -19,6 +19,222 @@ Apply/save the changes and enjoy your new theme.
 
 Tip: You can also use the screenshots below as a visual reference before choosing a theme.
 
+Purely Premium New looks _ Austra Unicorn (Recommended)
+
+<img width="1416" height="845" alt="Screenshot_20260826_112349" src="https://github.com/user-attachments/assets/d5433ecf-20d4-4e44-bc12-816d348d55da" />
+
+
+/* ==========================================================================
+   1. ROOT VARIABLES & ANIMATED AMBIENT BACKGROUND
+   ========================================================================== */
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.85);
+  --glass-shadow: 0 12px 35px rgba(31, 38, 135, 0.07);
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --copilot-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+  --copilot-glow: 0 8px 25px rgba(139, 92, 246, 0.35);
+}
+
+body, :root {
+  background: radial-gradient(circle at 15% 15%, #dbeafe 0%, #eff6ff 45%, #f0f9ff 100%) !important;
+  background-attachment: fixed !important;
+  color: var(--text-main) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Floating Fluid Aura Glows */
+body::before, body::after {
+  content: "";
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(90px);
+}
+
+body::before {
+  top: -10%;
+  right: -5%;
+  width: 55vw;
+  height: 55vw;
+  background: radial-gradient(circle, rgba(147, 51, 234, 0.25), rgba(56, 189, 248, 0.2) 70%, transparent 100%);
+  animation: floatAura 14s ease-in-out infinite alternate;
+}
+
+body::after {
+  bottom: -15%;
+  left: -5%;
+  width: 45vw;
+  height: 45vw;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.18), rgba(99, 102, 241, 0.18) 70%, transparent 100%);
+  animation: floatAura 18s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes floatAura {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-60px, 50px) scale(1.12); }
+}
+
+/* ==========================================================================
+   2. SIDEBAR & NAVIGATION GLASS
+   ========================================================================== */
+aside, .sidebar, [class*="sidebar"] {
+  background: rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(24px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
+  border-right: 1px solid var(--glass-border) !important;
+  z-index: 2;
+}
+
+aside button, .sidebar-item, [class*="nav-item"] {
+  border-radius: 12px !important;
+  color: var(--text-main) !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+aside button:hover, .sidebar-item:hover {
+  background: rgba(255, 255, 255, 0.8) !important;
+  transform: translateX(4px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* ==========================================================================
+   3. CHAT INPUT BAR & SEARCH FIX (NO LAYOUT GLITCHES)
+   ========================================================================== */
+form, div:has(> textarea), [class*="chat-input-wrapper"] {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  border: 1.5px solid var(--glass-border) !important;
+  border-radius: 22px !important;
+  box-shadow: var(--glass-shadow) !important;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+form:focus-within, div:has(> textarea:focus) {
+  border-color: rgba(139, 92, 246, 0.6) !important;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.15), var(--glass-shadow) !important;
+}
+
+textarea {
+  background: transparent !important;
+  color: var(--text-main) !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+textarea::placeholder {
+  color: var(--text-muted) !important;
+}
+
+/* ==========================================================================
+   4. CHAT BUBBLES
+   ========================================================================== */
+.user-message, [data-author="user"] {
+  background: var(--copilot-gradient) !important;
+  color: #ffffff !important;
+  border-radius: 20px 20px 4px 20px !important;
+  box-shadow: var(--copilot-glow) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.assistant-message, [data-author="assistant"] {
+  background: rgba(255, 255, 255, 0.65) !important;
+  backdrop-filter: blur(16px) !important;
+  color: var(--text-main) !important;
+  border-radius: 20px 20px 20px 4px !important;
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* ==========================================================================
+   5. BUTTONS, ICONS & ANIMATION EFFECTS (TEXT VISIBILITY SAFE)
+   ========================================================================== */
+button, .btn, [role="button"] {
+  background: rgba(255, 255, 255, 0.75) !important;
+  color: var(--text-main) !important;
+  border: 1px solid var(--glass-border) !important;
+  backdrop-filter: blur(12px) !important;
+  border-radius: 12px !important;
+  font-weight: 500 !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+button:hover, .btn:hover {
+  background: #ffffff !important;
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.15) !important;
+}
+
+button:active, .btn:active {
+  transform: translateY(0) scale(0.97) !important;
+}
+
+/* Icon rotation and scaling micro-interaction */
+button svg, .btn svg, button i {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  color: inherit !important;
+}
+
+button:hover svg, .btn:hover svg, button:hover i {
+  transform: scale(1.18) rotate(6deg);
+}
+
+/* Send & Primary Action Buttons Glow */
+button[type="submit"], .send-btn, button:has(svg[class*="send"]) {
+  background: var(--copilot-gradient) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: var(--copilot-glow) !important;
+}
+
+button[type="submit"]:hover, .send-btn:hover {
+  transform: translateY(-2px) scale(1.06) !important;
+  box-shadow: 0 10px 28px rgba(139, 92, 246, 0.5) !important;
+}
+
+/* ==========================================================================
+   6. SETTINGS MODAL & TEXT RESTORATION
+   ========================================================================== */
+dialog, .modal-content, [class*="modal"], [class*="settings"] {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(28px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(200%) !important;
+  border-radius: 22px !important;
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1) !important;
+  color: var(--text-main) !important;
+}
+
+/* Global Typography & Icon Visibility Enforcement */
+span, p, label, h1, h2, h3, h4, h5, th, td, div {
+  color: var(--text-main);
+}
+
+small, .text-muted, [class*="subtext"] {
+  color: var(--text-muted) !important;
+}
+
+/* Code Blocks Glass Styling */
+pre, code {
+  background: rgba(241, 245, 249, 0.8) !important;
+  border: 1px solid rgba(203, 213, 225, 0.6) !important;
+  border-radius: 12px !important;
+  color: #0284c7 !important;
+}
+
+
+
+
+
+
+
+
+
+
 Premium — Organic OS
 <img width="1253" height="802" alt="Organic OS" src="https://github.com/user-attachments/assets/6c449a45-5a0b-4931-bc11-64bcaeac0daf" />
 CSS Code
