@@ -24,7 +24,7 @@ Tip: You can also use the screenshots below as a visual reference before choosin
 <img width="1416" height="845" alt="Screenshot_20260826_112349" src="https://github.com/user-attachments/assets/d5433ecf-20d4-4e44-bc12-816d348d55da" />
 
 
-/* ==========================================================================
+''' /* ==========================================================================
    1. ROOT VARIABLES & ANIMATED AMBIENT BACKGROUND
    ========================================================================== */
 :root {
