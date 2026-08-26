@@ -239,7 +239,8 @@ pre, code {
 # Premium — Organic OS
 <img width="1253" height="802" alt="Organic OS" src="https://github.com/user-attachments/assets/6c449a45-5a0b-4931-bc11-64bcaeac0daf" />
 CSS Code
-/* ==========================================================================
+
+```/* ==========================================================================
    Organic OS 11 Ultra-Premium 3D Glass & Animated Bloom Theme (Pure CSS)
    ========================================================================== */
 
@@ -522,7 +523,9 @@ button:empty:hover {
 # Premium — Kline OS
 <img width="1251" height="801" alt="Kline OS" src="https://github.com/user-attachments/assets/86a746b7-b152-4bf7-93cc-c81f260619fc" />
 CSS Code
-/* ==========================================================================
+
+
+```/* ==========================================================================
    Llama.cpp Premium Glassmorphic & Animated CSS Theme
    ========================================================================== */
 
@@ -670,7 +673,9 @@ button:active,
 # Modern Arch
 <img width="1250" height="808" alt="Modern Arch" src="https://github.com/user-attachments/assets/39928131-4d30-4cc2-bcf1-d3cf04799d19" />
 CSS Code
-/* ==========================================================================
+
+
+```/* ==========================================================================
    Windows 11 Light Glass Theme (Pure CSS)
    ========================================================================== */
 
@@ -849,7 +854,9 @@ button.icon-btn:hover,
 # Sinoatic Arc
 <img width="1256" height="807" alt="Sinoatic Arc" src="https://github.com/user-attachments/assets/dc7e87b8-9a98-492c-bab0-f6404c8b2ee1" />
 CSS Code
-/* ==========================================================================
+
+
+```/* ==========================================================================
    Cyber Emerald Theme for Llama.cpp
    ========================================================================== */
 
@@ -1150,7 +1157,7 @@ button:active,
 }
 
 
-
+#Credite 
 
 Themes Included
 Organic OS — Ultra-premium 3D glass and animated bloom design.
